@@ -302,8 +302,8 @@ def pilih_super():
 	print "\n\033[1;94m        ❈     \x1b[1;91mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
 	print "   \033[1;31;48m╬─────────────────♛HUZAIFA♛─────────────────╬"
 
-	jalan('                         \033[1;91mPlease Wait...')
-	print  "  \033[1;36;48m╬─────────────────♛HUZAIFA♛─────────────────╬" 
+	jalan('                       \033[1;91mPlease Wait...')
+	print  "  \033[1;36;48m ╬─────────────────♛HUZAIFA♛─────────────────╬" 
 
 	def main(arg):
 		global cekpoint,oks
